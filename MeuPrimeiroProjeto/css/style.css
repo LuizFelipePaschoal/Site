@@ -59,12 +59,12 @@ body {
 }
 
 .fotoperfil {
+    
     height: 275; 
     width: 183;
     float: left;
     border-radius: 20px;
     overflow: hidden;
     transform: translate(2%, 5%);
-
 }
 

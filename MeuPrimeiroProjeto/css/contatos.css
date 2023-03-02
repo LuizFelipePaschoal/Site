@@ -1,0 +1,77 @@
+:root{
+
+    ---corfundo: rgb(36, 35, 35);
+    ---correde: rgb(32, 78, 179);
+    ---corlinha: red;
+}
+
+body {
+    
+    width:  100%;
+    height: 100%;
+    margin: 0 auto;
+    background: var(---corfundo)
+}
+
+.topo {  /*FUNDO DO CABEÇALHO*/
+
+    width: 100%;
+    background-color: var(---corfundo);
+    height: 50px;
+    border-bottom: 1px solid var(---corlinha);
+}
+
+.topo{
+
+    width: 100vw;                                               
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo { /*LOGO PANELA SECRETA*/
+
+    float: left;
+    padding: 16px;
+    width: 75%;
+}
+
+.topo .circulo i{ /*ICONE DAS REDES-SOCIAS*/
+    float: left;
+    font-size: 26px;
+    margin: 15px;
+    color: var(---correde);
+    width: 4%;     
+}
+
+.redes-sociais {
+
+    width: 500px;
+}
+
+.topo2 { /*FUNDO DO MENU*/
+
+    background-color: var(---corfundo);      
+    width: 100%;
+    border-bottom: 1px solid var(---corlinha);
+    float: left;
+}
+.menudp ul li {
+
+    display: inline-block;
+    color: black;
+    margin-left: 90px;
+    width: 225px;
+}
+
+.menudp ul li a {
+
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+
+
+

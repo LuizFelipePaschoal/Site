@@ -30,22 +30,9 @@ body {
 
 .logo { /*LOGO PANELA SECRETA*/
 
-    float: left;
-    padding: 16px;
-    width: 75%;
-}
-
-.topo .circulo i{ /*ICONE DAS REDES-SOCIAS*/
-    float: left;
-    font-size: 26px;
-    margin: 15px;
-    color: var(---correde);
-    width: 4%;     
-}
-
-.redes-sociais {
-
-    width: 500px;
+    float: right;
+    padding: 15px;
+    width: 56%;
 }
 
 .topo2 { /*FUNDO DO MENU*/
@@ -71,4 +58,13 @@ body {
     text-transform: uppercase;
 }
 
+.fotoperfil {
+    height: 275; 
+    width: 183;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+    transform: translate(2%, 5%);
+
+}
 
